@@ -45,6 +45,10 @@ You will also need to install:
      * You also need to install the `Command Line Tools` via Xcode. You can find this under the menu `Xcode -> Preferences -> Downloads`
      * This step will install `gcc` and the related toolchain containing `make`
 
+Note that OS X is just a flavour of Unix and so needs `python`, `make`, and C/C++.
+An easy way to obtain these is to install XCode from Apple,
+and then use it to install the command line tools (under Preferences -> Downloads).
+
 ### On Windows
 
 #### Option 1
@@ -80,10 +84,6 @@ value:
 ``` bash
 $ npm config set python /path/to/executable/python2.7
 ```
-
-Note that OS X is just a flavour of Unix and so needs `python`, `make`, and C/C++.
-An easy way to obtain these is to install XCode from Apple,
-and then use it to install the command line tools (under Preferences -> Downloads).
 
 How to Use
 ----------
